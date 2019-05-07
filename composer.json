@@ -1,20 +1,21 @@
 {
 	"name": "kissyuyu7/qq_auth",
 	"description": "QQ互联网页授权",
+	"type": "library",
 	"license": "MIT",
 	"authors": [
-        {
-            "name": "胧月",
-            "email": "kissyuyu7@live.cn"
-        }
-    ],
+		{
+		    "name": "胧月",
+		    "email": "kissyuyu7@live.cn"
+		}
+    	],
 	"require": {
 		"php": ">=5.4"
 	},
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"kissyuyu7\\qq_auth\\": "src"
+			"kissyuyu7\\": "src/"
 		}
 	}
 }
