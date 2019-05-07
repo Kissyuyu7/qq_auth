@@ -9,7 +9,7 @@ $config = [
 ```
 - 使用
 ```php
-use kissyuyu7\QQAuth\QQAuth;
+use kissyuyu7\QQAuth;
 $authObj = new QQAuth($config);
 ```
 
